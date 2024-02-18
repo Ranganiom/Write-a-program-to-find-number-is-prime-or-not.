@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int i,count=1,n;
+cout << "Enter the number" << endl;
+cin >> n;
+for(i=1;i<=n;i++)
+{ 
+if(i%n==0)
+{
+count++;
+}
+}
+if(count==2)
+{
+cout << "It is a prime number" ;
+}
+else
+{
+cout << "It is not prime number" ;
+}
+return 0;
+}
+    
